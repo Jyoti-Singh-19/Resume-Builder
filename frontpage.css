@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Marcellus;
+  background-color: #f0f8ff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #597E52;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #706233;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid #008000;
+}
+
+.build-btn {
+  background-color: #C6A969;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.build-btn:hover {
+  background-color: #706233;
+}
+
+
+i {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.box1 {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 6px;
+  border-radius: 10px;
+  width: 98vw;
+  height: 38vw;
+}
+
+img {
+  width: 98vw;
+  height: 38vw;
+  object-fit: cover;
+  border-radius: 10px;
+  opacity: 0.4;
+  position: relative;
+
+}
+
+.text {
+  position: relative;
+  color: rgb(87, 83, 83);
+  font-size: 30px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  text-align: center;
+  font-family: Marcellus;
+}
+
+.register-btn {
+  background-color: #ABC270;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  position: relative;
+  bottom: 169px;
+  left: 52%;
+}
+
+.register-btn:hover {
+  background-color: #3e8e41;
+}
+
+.box2 {
+  width: 98vw;
+  height: 30vw;
+  border-radius: 10px;
+  margin: 1px;
+  position: relative;
+  top: -30px;
+  background-color: #d3f4d5;
+}
+
+.text-1 {
+  font-family: Marcellus;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  top: -85%;
+  text-align: center;
+}
+
+#img1 {
+  width: 98vw;
+  height: 30vw;
+  object-fit: cover;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.box4 {
+  width: 98vw;
+  height: 6vw;
+  background-color: #597E52;
+  border-radius: 10px;
+  margin: 0px;
+  position: relative;
+  top: 3px;
+  display: flex;
+}
+
+.foot {
+  margin-left: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  gap: 100px;
+  font-family: Marcellus;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+.foot a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1.7;
+  transition: all 0.3s ease-in-out;
+}
+
+.foot a:hover {
+  color: #706233;
+}
+
+.foot a.active {
+  border-bottom: 2px solid #008000;
+}
+
+.list {
+  list-style: none;
+}
+
+.last {
+  font-family: Marcellus;
+  font-size: 20px;
+  margin-right: 10px;
+  color: white;
+  font-weight: bolder;
+}
+
+.social {
+  display: flex;
+  gap: 0.5px;
+}
+
+#insta {
+  height: 40px;
+  width: 40px;
+  opacity: 5;
+}
